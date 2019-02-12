@@ -1,0 +1,148 @@
+body{
+  background: black;
+  width: 100%;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  animation: animacionexamen 2s;
+}
+header{
+  padding-top: 2%;
+  padding-top: 2%;
+  padding: 5px;
+  width: 900px;
+  border-radius:10px 10px 0 0;
+	background: #5b7989;
+	display: flex;
+  text-shadow: 2px 2px #02010a;
+	margin: 0 auto;
+}
+.titulocabecera{
+	width: 100%;
+	text-indent: 15px;
+}
+.menu {
+	width: 30%;
+	margin-top: 20px;
+}
+.menu a{
+	color: white;
+	text-decoration:underline;
+}
+.menu a:hover{
+	text-decoration: none;
+}
+#paisaje{
+    padding-top: 2%;
+    padding-top: 2%;
+    padding: 5px;
+    width: 900px;
+	  background-color: #82c3a6;
+    margin: auto;
+}
+.bordeima{
+	box-shadow: 2px 2px black;
+	width: 60%;
+  margin-top:10px 10px;
+}
+
+.bordeimag{
+  width: 80%;
+	box-shadow: 2px 2px black;
+  margin-top:10px 10px;
+}
+#ubicar{
+  padding-top: 2%;
+  padding-top: 2%;
+  padding: 5px;
+  width: 900px;
+	background: #d5c75f;
+	display: flex;
+  margin: 0 auto;
+  }
+#imagen2 img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+#imagen2 img:hover{
+	transform: rotate(10deg);
+}
+#retratoss img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+#retratoss img:hover{
+	transform: translate(5px, -20px);
+}
+footer {
+  padding-top: 2%;
+  padding-top: 2%;
+  padding: 5px;
+  width: 900px;
+  border-radius:0 0 10px 10px;
+	background: #C6d5c5;
+	display: flex;
+  margin: 0 auto;
+  color: black;
+  align-content: center;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+  width: 100%;
+}
+
+#piepagina .contenedor > div {
+	text-align: center;
+	padding: 1%;
+	flex-basis: 100%|auto;
+}
+.contenedor a{
+	color: black;
+	text-decoration:none;
+}
+.contenedor a:hover{
+	text-decoration:underline;
+}
+.sephia{
+  -webkit-filter:blur 10px;
+  filter: blur(10px);
+}
+.blur{
+-webkit-filter:grayscale(80%);
+filter: grayscale(80%);
+
+}
+.contraste{
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
+@media screen and (max-width: 400px){
+  #cel
+	{
+    display: flex;
+    flex-direction: column;
+		width: 100%;
+		margin: 0 auto;
+	}
+  #paisaje{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #ubicar{
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer{
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+  }
+  .contenedor{
+    flex-direction: column;
+  }
+.menu{
+  width: 100%;
+  text-align: center;
+}
